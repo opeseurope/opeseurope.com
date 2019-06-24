@@ -10,6 +10,13 @@
 }
 
 
+@mixin section-background($url) {
+    background: url($url);
+    background-size: cover;
+    background-position: center;
+}
+
+
 $background: #001339;
 
 
@@ -97,9 +104,7 @@ body {
 
 .who-are-we {
     padding: 80px 0;
-    background: url(/img/who-are-we-background.png);
-    background-size: cover;
-    background-position: center;
+    @include section-background("/img/who-are-we-background.png");
 
     .text {
         margin: 80px auto;
@@ -122,4 +127,45 @@ body {
         width: 452px;
         height: 452px;
     }
+}
+
+.our-technology {
+    padding: 80px 0;
+    @include section-background("/img/our-technology-background.png");
+
+
+    .text {
+        margin: 0px auto 40px auto;
+        width: 60%;
+
+        .heading {
+            @include heading;
+            text-align: center;
+            color: $background;
+        }
+        .description {
+            color: $background;
+            text-align: center;
+            line-height: 2em;
+            opacity: 0.6;
+        }
+
+    }
+
+    .tech-cards {
+        width: 80%;
+        margin: 0 auto;
+            
+        .card {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+
+            filter: drop-shadow(3px 3px 0 #000);
+
+            margin: 0 auto;
+        }
+    }
+
+
 }
