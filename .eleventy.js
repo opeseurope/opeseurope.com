@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
 
-  // eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("src/img");
   // eleventyConfig.addPassthroughCopy("css");
 
   eleventyConfig.addPassthroughCopy("src/CNAME");
