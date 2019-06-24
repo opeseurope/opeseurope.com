@@ -1,13 +1,14 @@
 %html
   %head
+    %meta{content:  "width=device-width, initial-scale=1", name: "viewport"}
     %link{href: "https://fonts.googleapis.com/css?family=Montserrat&display=swap", rel: "stylesheet"}
     %link{href: "/styles/site.css", rel: "stylesheet"}
   %body
-    .nav.grid
-      .logo.bigger.column
+    .nav.grid-nr
+      .column.logo.bigger
         %h1
           %span OPES Europe
-      .menu.column
+      .column.menu
         %a.button
           Contact us
     .intro
@@ -66,3 +67,18 @@
           .description
             At OPES Europe, we are always adding value to the OPES network by building and
             providing fundamental services and tools to the OPES Global Community.
+
+    .grid.ones.connect-now
+      .column
+        .text
+          .heading
+            Fund your initiative / Grow your business
+          .description
+            Now is the time to connect your activity to the OPES Global network!
+      .column
+        .connect-now-action
+          %a.button.strong
+            Connect Now
+
+
+            
