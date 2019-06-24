@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="568px" height="368px" viewBox="0 0 568 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>opes-lens-logo-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="561.6" height="362.16" rx="12.24"></rect>
+        <filter x="-0.6%" y="-1.0%" width="102.0%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="54.72" y="25.2" width="456.48" height="194.4" rx="8.64"></rect>
+        <filter x="-1.2%" y="-1.8%" width="102.4%" height="105.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-1440" transform="translate(-657.000000, -2560.000000)">
+            <g id="opes-lens-logo-big" transform="translate(658.000000, 2561.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F6F6F6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#003194" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="OPES-Lens-Logo" transform="translate(142.560000, 52.560000)">
+                    <g id="camera" transform="translate(0.000000, 14.904000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M33.1462767,14.256 C33.1462767,14.256 18.825281,19.564164 10.368,39.528 L57.024,30.7345968 L33.1462767,14.256 Z" id="Path"></path>
+                        <path d="M10.054617,40.8768329 C10.054617,40.8768329 3.82563966,54.6359644 11.9654194,74.52 L38.232,35.64 L10.054617,40.8768329 Z" id="Path"></path>
+                        <path d="M13.608,75.7062757 C13.608,75.7062757 18.916164,89.6270627 38.88,97.848 L30.090612,52.488 L13.608,75.7062757 Z" id="Path"></path>
+                        <path d="M41.5248329,98.9073026 C41.5248329,98.9073026 55.2839644,104.869306 75.168,97.0772301 L36.288,71.928 L41.5248329,98.9073026 Z" id="Path"></path>
+                        <path d="M77.6636893,95.904 C77.6636893,95.904 91.9874759,90.5975222 100.44,70.632 L53.784,79.4185959 L77.6636893,95.904 Z" id="Path"></path>
+                        <path d="M98.8391211,35.64 L72.576,74.52 L100.758196,69.2791847 C100.758196,69.2831671 106.980291,55.5240356 98.8391211,35.64 Z" id="Path"></path>
+                        <path d="M97.2,34.4536314 C97.2,34.4536314 91.8926793,20.5304411 71.928,12.312 L80.7159917,57.672 L97.2,34.4536314 Z" id="Path"></path>
+                        <path d="M69.2757395,11.2531608 C69.2757395,11.2531608 55.5259812,5.28829613 35.64,13.086748 L74.52,38.232 L69.2757395,11.2531608 Z" id="Path"></path>
+                        <path d="M55.4079155,0 C24.8084625,0 0,24.6633837 0,55.08 C0,85.4927237 24.804547,110.16 55.4079155,110.16 C85.9995375,110.16 110.808,85.4888311 110.808,55.08 C110.811915,24.6633837 86.003453,0 55.4079155,0 Z M55.4079155,105.901518 C27.2203963,105.901518 4.28353187,83.1026799 4.28353187,55.08 C4.28353187,27.0573201 27.2203963,4.25848198 55.4079155,4.25848198 C83.5876037,4.25848198 106.524468,27.0573201 106.524468,55.08 C106.524468,83.1026799 83.5876037,105.901518 55.4079155,105.901518 Z" id="Shape"></path>
+                    </g>
+                    <text id="PES" font-family="Montserrat-Regular, Montserrat" font-size="82.944" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="112.752" y="80">PES</tspan>
+                    </text>
+                    <text id="LENS" font-family="Montserrat-Regular, Montserrat" font-size="34.4736" font-weight="normal" letter-spacing="20.7360001" fill="#FFC000">
+                        <tspan x="121.176" y="117.888">LENS</tspan>
+                    </text>
+                </g>
+                <text id="https://opeslens.com" font-family="OpenSans-Regular, Open Sans" font-size="22.3488" font-weight="normal" letter-spacing="1.58400002" fill="#001339">
+                    <tspan x="63.36" y="332.16">https://opeslens.com</tspan>
+                </text>
+                <text id="Look-at-the-OPES-Glo" font-family="Montserrat-Regular, Montserrat" font-size="11.52" font-weight="normal" line-spacing="19.44" letter-spacing="0.0590163946" fill="#001339">
+                    <tspan x="64.8" y="251.48">Look at the OPES Global community from your preferred </tspan>
+                    <tspan x="64.8" y="270.92">perspective. OPES Europe worked with OPES Love to bring </tspan>
+                    <tspan x="64.8" y="290.36">you the best OPES explorer of the OPES network.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
