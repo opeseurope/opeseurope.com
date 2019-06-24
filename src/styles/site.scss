@@ -169,3 +169,39 @@ body {
 
 
 }
+
+.current-project {
+    padding: 80px 0;
+
+    .column:first-child {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 40px;
+    }
+
+    .column:nth-child(2) {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+
+    .text {
+        margin: 80px 0;
+        width: 60%;
+
+        .heading {
+            @include heading;
+            color: white;
+        }
+        .description {
+            color: white;
+            line-height: 2em;
+        }
+    }
+
+    .opes-lens-logo {
+        background: url(/img/opes-lens-logo-big.svg);
+        width: 562px;
+        height: 364px;
+    }
+}
