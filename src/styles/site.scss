@@ -3,12 +3,18 @@
 @import '_button';
 
 
+@mixin heading {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 1.6em;
+}
 
 
+$background: #001339;
 
 
 body {
-    background: #001339;
+    background: $background;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -83,10 +89,37 @@ body {
     }
 
     .heading {
+        @include heading;
         color: white;
         text-align: center;
-        font-size: 32px;
-        font-weight: 100;
-        line-height: 1.6em;
+    }
+}
+
+.who-are-we {
+    padding: 80px 0;
+    background: url(/img/who-are-we-background.png);
+    background-size: cover;
+    background-position: center;
+
+    .text {
+        margin: 80px auto;
+        width: 60%;
+
+        .heading {
+            @include heading;
+            color: $background;
+        }
+        .description {
+            color: $background;
+            line-height: 2em;
+        }
+
+    }
+
+    .opes-logo-big {
+        margin: 0 auto;
+        background: url(/img/opes-europe-logo-big.png);
+        width: 452px;
+        height: 452px;
     }
 }
