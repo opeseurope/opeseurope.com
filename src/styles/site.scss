@@ -32,6 +32,10 @@ body {
     padding: 25px 30px;
     .logo {
         h1 {
+
+            padding: 0;
+            margin: 0;
+            a {
             span { display: none; }
             display: block;
             padding: 0;
@@ -39,7 +43,7 @@ body {
             background: url('/img/opes-europe-logo.png');
             width: 263px;
             height: 40px;
-        }
+               }}
     }
     .menu {
         text-align: right;
