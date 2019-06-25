@@ -3,13 +3,20 @@
     %meta{content:  "width=device-width, initial-scale=1", name: "viewport"}
     %link{href: "https://fonts.googleapis.com/css?family=Montserrat&display=swap", rel: "stylesheet"}
     %link{href: "/styles/site.css", rel: "stylesheet"}
+    %link{href: "/img/opes-europe-logo-32.png", rel: "shortcut icon", type: "image/x-icon"}
+    %link{href: "/img/opes-europe-logo-256.png", rel: "apple-touch-icon"}
+    :javascript
+      function scroll_to_learn_more() {
+        var element = document.getElementById("who-are-we");
+        element.scrollIntoView({behavior: "smooth"});
+      }
   %body
     .nav.grid-nr
       .column.logo.bigger
         %h1
           %span OPES Europe
       .column.menu
-        %a.button
+        %a.button{href: "https://forms.gle/DkkVa8X7UArSsvJJA"}
           Contact us
     .intro
       .intro-text
@@ -18,7 +25,7 @@
         .subtext
           %span Be part of the Global OPES network
       .intro-action
-        %a.button.strong
+        %a.button.strong{onclick: "scroll_to_learn_more()"}
           Learn more
     .motto
       .label
@@ -27,7 +34,7 @@
         %span
           Building and supporting a global community of diverse communities with different
           traditions and laws. Bringing growth and prosperity.
-    .grid.who-are-we
+    .grid.who-are-we#who-are-we
       .column
         .text
           .heading
@@ -77,7 +84,7 @@
             Now is the time to connect your activity to the OPES Global network!
       .column
         .connect-now-action
-          %a.button.strong
+          %a.button.strong{href: "https://forms.gle/DkkVa8X7UArSsvJJA"}
             Connect Now
 
 
