@@ -5,27 +5,33 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet"/>
 <link href="/styles/site.css" rel="stylesheet"/>
 <link href="/img/opes-europe-logo-32.png" rel="shortcut icon" type="image/x-icon"/>
-<link href="/img/opes-europe-logo-256.png" rel="apple-touch-icon"/></head>
+<link href="/img/opes-europe-logo-256.png" rel="apple-touch-icon"/><script type="text/javascript">
+//<![CDATA[
+function scroll_to_learn_more() {
+  var element = document.getElementById("who-are-we");
+  element.scrollIntoView({behavior: "smooth"});
+}
+//]]></script></head>
 <body>
 <div class="nav grid-nr">
 <div class="column logo bigger">
 <h1>
 <span>OPES Europe</span></h1></div>
 <div class="column menu">
-<a class="button">Contact us</a></div></div>
+<a href="https://forms.gle/DkkVa8X7UArSsvJJA" class="button">Contact us</a></div></div>
 <div class="intro">
 <div class="intro-text">
 <div class="heading">Welcome to ground zero!</div>
 <div class="subtext">
 <span>Be part of the Global OPES network</span></div></div>
 <div class="intro-action">
-<a class="button strong">Learn more</a></div></div>
+<a onclick="scroll_to_learn_more()" class="button strong">Learn more</a></div></div>
 <div class="motto">
 <div class="label">
 <span>What we believe in</span></div>
 <div class="heading">
 <span>Building and supporting a global community of diverse communities with different traditions and laws. Bringing growth and prosperity.</span></div></div>
-<div class="grid who-are-we">
+<div id="who-are-we" class="grid who-are-we">
 <div class="column">
 <div class="text">
 <div class="heading">Who we are</div>
@@ -59,4 +65,4 @@
 <div class="description">Now is the time to connect your activity to the OPES Global network!</div></div></div>
 <div class="column">
 <div class="connect-now-action">
-<a class="button strong">Connect Now</a></div></div></div></body></html>
+<a href="https://forms.gle/DkkVa8X7UArSsvJJA" class="button strong">Connect Now</a></div></div></div></body></html>
