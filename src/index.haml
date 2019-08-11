@@ -6,6 +6,18 @@
     %link{href: "/styles/site.css", rel: "stylesheet"}
     %link{href: "/img/opes-europe-logo-32.png", rel: "shortcut icon", type: "image/x-icon"}
     %link{href: "/img/opes-europe-logo-256.png", rel: "apple-touch-icon"}
+
+    %script{src: "/js/main.js"}
+
+    / Global site tag (gtag.js) - Google Analytics
+    %script{async: "", src: "https://www.googletagmanager.com/gtag/js?id=UA-142717903-1"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142717903-1');
+
     :javascript
       function scroll_to_learn_more() {
         var element = document.getElementById("who-are-we");
@@ -17,7 +29,7 @@
         %h1
           %a{href: "/"}
             %span OPES Europe
-      .column.menu
+      .column.menu.contact-us
         %a.button{href: "https://forms.gle/DkkVa8X7UArSsvJJA"}
           Contact us
     .intro
@@ -26,16 +38,26 @@
           Welcome to ground zero!
         .subtext
           %span Be part of the Global OPES network
-      .intro-action
-        %a.button.strong{onclick: "scroll_to_learn_more()"}
-          Learn more
+      .intro-action.support-action
+        .mobile
+          %a.button.strong{href: "opesapp://access.opes.one&name=opeseuropecn"}
+            Support Us
+        .web{style: "display:none"}
+          %img.qrcode{src: "/img/qrcode.svg"}
+      .mobile-with-opes-screenshot
+        %img{src: "/img/mobile-with-opes-screenshot.png"}
+      .download-app-buttons
+        .app-store
+          %img{src: "/img/app-store-badge.svg"}
+        .google-play
+          %img{src: "/img/google-play-badge.svg"}
     .motto
       .label
         %span What we believe in
       .heading
         %span
-          Building and supporting a global community of diverse communities with different
-          traditions and laws. Bringing growth and prosperity.
+          Building and supporting a global network of diverse communities with different
+          traditions and laws. Allowing for growth and prosperity.
     .grid.who-are-we#who-are-we
       .column
         .text
@@ -83,7 +105,9 @@
           .heading
             Fund your initiative / Grow your business
           .description
-            Now is the time to connect your activity to the OPES Global network!
+            Now is the time to connect your activity! OPES Europe is the trusted
+            OTC operator for the OPES network. Contact us for more information,
+            help with acquiring a Community Node Key, Access Node Key, or the PE coin.
       .column
         .connect-now-action
           %a.button.strong{href: "https://forms.gle/DkkVa8X7UArSsvJJA"}
