@@ -33,3 +33,11 @@ $ npm run dev:debug
 ```
 npm run build
 ```
+
+## Access Nodes
+
+```
+curl -H 'x-api-version: 1.0' https://access-node.opeseurope.com/qr/payload
+```
+
+To check the payload for the mobile button
